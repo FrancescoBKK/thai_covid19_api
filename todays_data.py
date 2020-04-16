@@ -1,5 +1,4 @@
 import requests
-import datetime
 
 today_url = 'https://covid19.th-stat.com/api/open/today'
 response = requests.get(today_url)
