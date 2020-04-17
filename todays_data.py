@@ -27,11 +27,13 @@ fatality_rate = round(deaths/confirmed*100, 2)
 
 
 print(f'\nCountry: Bangkok\nDate: {updateDate}\n')
+print('Summary:')
 print_stuff('Confirmed cases', confirmed)
 print_stuff('Recovered patients', recovered)
 print_stuff('Hospitalized patients', hospitalized)
 print_stuff('Deaths', deaths)
 print(f'Fatality Rate: ' + str(fatality_rate) + '%\n')
+print('Today\'s update: ''')
 print_stuff('New cases confirmed today', newConfirmed)
 print_stuff('New patients hospitalized today', newHospitalized)
 print_stuff('Patients recovered today', newRecovered)
