@@ -1,3 +1,4 @@
+#! /usr/local/bin/python3
 import requests
 
 today_url = 'https://covid19.th-stat.com/api/open/today'
