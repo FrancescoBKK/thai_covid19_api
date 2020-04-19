@@ -13,6 +13,26 @@ def get_variable(key):
 def print_stuff(stuff, data):
     print(f'{stuff}: {str(f_number(data))}')
 
+# try in one line
+
+#fran_data_table = {
+#    'Confirmed cases': get_variable('Confirmed'),
+#    'Recovered patients': get_variable('Recovered'),
+#    'Hospitalized patients': get_variable('Hospitalized'),
+#    'Deaths': get_variable('Deaths'),
+#    'New confirmed cases': get_variable('NewConfirmed'),
+#    'New revocered Cases': get_variable('NewRecovered'),
+#    'New deaths': get_variable('NewDeaths'),
+#    'Fatality Rate': round(get_variable('Deaths')/get_variable('Confirmed')*100, 2)
+#}
+#
+#for k, v in fran_data_table.items():
+#    if k != 'Fatality Rate':
+#        print(k.title()+': ', f_number(v))
+#    if k == 'Fatality Rate':
+#        print(k.title()+': ', f_number(v)+'%') 
+
+
 confirmed = get_variable('Confirmed')
 recovered = get_variable('Recovered')
 hospitalized = get_variable('Hospitalized')
